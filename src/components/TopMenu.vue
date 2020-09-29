@@ -65,16 +65,17 @@
             <a
               class="dropdown-item"
               href="https://roserviceschat.azurewebsites.net/"
-              >Chat</a
             >
+              Chat
+            </a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="https://dejatupuntito.com/">Web</a>
-            <a class="dropdown-item" href="https://api.dejatupuntito.com/"
-              >Api</a
-            >
-            <a class="dropdown-item" href="https://identity.dejatupuntito.com/"
-              >Identity Server</a
-            >
+            <a class="dropdown-item" href="https://api.dejatupuntito.com/">
+              Api
+            </a>
+            <a class="dropdown-item" href="https://identity.dejatupuntito.com/">
+              Identity Server
+            </a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="qr.html">QR</a>
           </div>
