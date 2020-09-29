@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+	
+  </head>
+  <body>
+  
+    <div style="width: 500px" id="reader"></div>
+    <p id="value"></p>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="html5-qrcode.min.js"></script>
+
+    <script>
+      $(function(){
+
+            // This method will trigger user permissions
+            Html5Qrcode.getCameras().then(devices => {
+            /**
+            * devices would be an array of objects of type:
+            * { id: "id", label: "label" }
+            */
+            if (devices && devices.length) {
+                var cameraId = devices[0].id;
+                // .. use this to start scanning.
+
+                const html5QrCode = new Html5Qrcode("reader");
+
+                html5QrCode.start(
+                cameraId,     // retreived in the previous step.
+                {
+                    fps: 10,    // sets the framerate to 10 frame per second
+                    qrbox: 250  // sets only 250 X 250 region of viewfinder to
+                                // scannable, rest shaded.
+                },
+                qrCodeMessage => {
+                    // do something when code is read. For example:
+                    console.log(`QR Code detected: ${qrCodeMessage}`);
+                    $("#value").html(qrCodeMessage);
+                },
+                errorMessage => {
+                    // parse error, ideally ignore it. For example:
+                    console.log(`QR Code no longer in front of camera.`);
+                })
+                .catch(err => {
+                    // Start failed, handle it. For example,
+                    console.log(`Unable to start scanning, error: ${err}`);
+                });
+            }
+            }).catch(err => {
+                // handle err
+                console.log(`error: ${err}`);
+            });
+      })
+    </script>
+
+  </body>
+</html>
