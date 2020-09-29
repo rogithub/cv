@@ -25,7 +25,4 @@ body {
 .container {
   padding-top: 70px;
 }
-.row {
-  padding-top: 1em;
-}
 </style>
