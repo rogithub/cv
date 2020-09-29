@@ -2,6 +2,7 @@
 .skills small {
   margin-right: 3px;
 }
+
 .skills span {
   margin-right: 2px;
 }
@@ -75,7 +76,7 @@ div.cv {
       </p>
 
       <p class="lead mt-4">Experience</p>
-      <div class="row">
+      <div class="row mt-3">
         <div class="col">
           <div class="card">
             <div class="card-body">
@@ -99,7 +100,7 @@ div.cv {
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-3">
         <div class="col">
           <div class="card">
             <div class="card-body">
@@ -125,7 +126,7 @@ div.cv {
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-3">
         <div class="col">
           <div class="card">
             <div class="card-body">
@@ -156,7 +157,7 @@ div.cv {
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-3">
         <div class="col">
           <div class="card">
             <div class="card-body">
@@ -186,7 +187,7 @@ div.cv {
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-3">
         <div class="col">
           <div class="card">
             <div class="card-body">
