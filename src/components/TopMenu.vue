@@ -80,6 +80,34 @@
             <a class="dropdown-item" href="qr.html">QR</a>
           </div>
         </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownTravel"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Traveling Pics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownTravel">
+            <a class="dropdown-item" href="https://www.flickr.com/photos/ro-mx">
+              flickr ro-mx
+            </a>
+            <a
+              class="dropdown-item"
+              href="https://www.flickr.com/photos/ro-mx-1"
+            >
+              flickr ro-mx-1
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://500px.com/p/ro-mx">
+              500px ro-mx
+            </a>
+          </div>
+        </li>
       </ul>
     </div>
   </nav>
