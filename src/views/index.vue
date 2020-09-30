@@ -172,15 +172,10 @@ div.cv {
                 </h6>
               </div>
               <p class="card-text">
-                MVC .Net cross-browser web page for companies that wanted to be
-                compared with their competitors so they can manage their
-                milestones and achieve better competitiveness in their areas.
-              </p>
-              <p class="card-text">
                 This software allows GMO to better manage the assets for their
                 clients. High accuracy in the amounts was very important since
-                this company was tradingshares for their clients. Everything was
-                double-checked and unit tested to ensure a highly accurate
+                this company was trading shares for their clients. Everything
+                was double-checked and unit tested to ensure a highly accurate
                 software that shows status of the transactions on realtime.
               </p>
             </div>
