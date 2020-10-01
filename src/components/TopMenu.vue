@@ -34,16 +34,16 @@
           <router-link to="/" class="nav-link"> Home </router-link>
         </li>
         <li class="nav-item">
+          <router-link to="/contact" class="nav-link"> Contact </router-link>
+        </li>
+        <li class="nav-item">
           <a
             class="nav-link"
             href="https://app.pluralsight.com/profile/rodrigo-jimenez-16"
           >
             Recent Training
           </a>
-        </li>
-        <li class="nav-item">
-          <router-link to="/contact" class="nav-link"> Contact </router-link>
-        </li>
+        </li>        
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
