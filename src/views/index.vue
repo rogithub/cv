@@ -87,14 +87,45 @@ div.cv {
               <div>
                 <h6 class="card-title">.Net Software Developer</h6>
                 <h6 class="card-subtitle mb-2 text-muted">
-                  September 2015 - Present
+                  September 2018 - Present 
+                </h6>
+              </div>
+              <p class="card-text">
+                Working on a software for selling chemical information to 
+                Retailers in the USA.
+              </p>
+              <p class="card-text">
+                Architecture and development of software 
+                solutions to feed Product information into 
+                our client's databases via azure services.                 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">UL</h4>
+              <h5 class="card-subtitle mb-2 text-muted">
+                Albany, New York Area
+              </h5>
+              <div>
+                <h6 class="card-title">.Net Software Developer</h6>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  September 2015 - September 2018 
                 </h6>
               </div>
               <p class="card-text">
                 Working on a Data Entry software for capturing and sharing
                 chemical information at industry level. High use of Knockout JS
-                framework, .Net MVC, data sharing via Web Services and XML
-                transformations.
+                framework, .Net MVC, XML and XSLT transformations.                
+              </p>
+              <p class="card-text">               
+                Design and develop a wizard data entry system that calculates fields 
+                and sections on the fly depending on user initial selections,
+                validates user input against several rules stored on database.
               </p>
             </div>
           </div>
@@ -121,6 +152,11 @@ div.cv {
                 related to chemical regulatory compliance. Some of the software
                 products are translated into more than 50 languages. MS
                 SQL/ORACLE/.NET.
+              </p>
+              <p class="card-text">
+                ASP NET Portal with several functions like capture chemical information
+                to create material safety datasheets (MSDS), designing and publishing such 
+                MSDSs into several formats including PDF, HTML, RichText.
               </p>
             </div>
           </div>
@@ -172,11 +208,14 @@ div.cv {
                 </h6>
               </div>
               <p class="card-text">
-                This software allows GMO to better manage the assets for their
-                clients. High accuracy in the amounts was very important since
-                this company was trading shares for their clients. Everything
-                was double-checked and unit tested to ensure a highly accurate
-                software that shows status of the transactions on realtime.
+                WPF application to trade shares on real time.
+              </p>
+
+              <p class="card-text">
+                Develop controls for WPF multithreaded application that trades 
+                assets on real time. Backend on WCF, high accuracy required since 
+                those were operations of amounts in the order of millions of USD 
+                dollars. Accuracy was supported by Unit and Integration testing.
               </p>
             </div>
           </div>
@@ -201,6 +240,10 @@ div.cv {
                 reservations, car rental and suggesting points of interest in
                 the Puerto Vallarta Bay area. Site was following design
                 guidelines from amazon for web interfaces.
+              </p>
+              <p class="card-text">
+                Design and implement booking system according to the design 
+                guidelines of Amazon which was the trend on those days.
               </p>
             </div>
           </div>
