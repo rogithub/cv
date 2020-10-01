@@ -85,7 +85,7 @@ div.cv {
                 Albany, New York Area
               </h5>
               <div>
-                <h6 class="card-title">.Net Software Developer</h6>
+                <h6 class="card-title">Retailer Product Suite</h6>
                 <h6 class="card-subtitle mb-2 text-muted">
                   September 2018 - Present 
                 </h6>
@@ -112,7 +112,7 @@ div.cv {
                 Albany, New York Area
               </h5>
               <div>
-                <h6 class="card-title">.Net Software Developer</h6>
+                <h6 class="card-title">WERCSMart Portal</h6>
                 <h6 class="card-subtitle mb-2 text-muted">
                   September 2015 - September 2018 
                 </h6>
@@ -140,11 +140,16 @@ div.cv {
                 Albany, New York Area
               </h5>
               <div>
-                <h6 class="card-title">.Net Software Developer</h6>
+                <h6 class="card-title">WERCSMart Studio</h6>
                 <h6 class="card-subtitle mb-2 text-muted">
                   May 2010 - September 2015
                 </h6>
               </div>
+              <p class="card-text">
+                ASP NET Portal with several functions like, designing and publishing 
+                material safety datasheets (MSDS) into several formats like PDF, 
+                HTML and RichText.
+              </p>
               <p class="card-text">
                 Developing and maintaining software for the chemical industry
                 using .net technology. Creation of web services to interact with
@@ -152,12 +157,7 @@ div.cv {
                 related to chemical regulatory compliance. Some of the software
                 products are translated into more than 50 languages. MS
                 SQL/ORACLE/.NET.
-              </p>
-              <p class="card-text">
-                ASP NET Portal with several functions like capture chemical information
-                to create material safety datasheets (MSDS), designing and publishing such 
-                MSDSs into several formats including PDF, HTML, RichText.
-              </p>
+              </p>              
             </div>
           </div>
         </div>
@@ -171,7 +171,7 @@ div.cv {
                 Monterrey NL, México
               </h5>
               <div>
-                <h6 class="card-title">.Net Software Developer</h6>
+                <h6 class="card-title">Quantuvis</h6>
                 <h6 class="card-subtitle mb-2 text-muted">
                   June 2009 - May 2010
                 </h6>
@@ -202,7 +202,7 @@ div.cv {
                 Monterrey NL, México
               </h5>
               <div>
-                <h6 class="card-title">.Net Software Developer</h6>
+                <h6 class="card-title">GMO</h6>
                 <h6 class="card-subtitle mb-2 text-muted">
                   July 2008 - July 2009
                 </h6>
@@ -230,7 +230,7 @@ div.cv {
                 Puerto Vallarta, Jalisco, México
               </h5>
               <div>
-                <h6 class="card-title">.Net Software Developer</h6>
+                <h6 class="card-title">Vallarta Online</h6>
                 <h6 class="card-subtitle mb-2 text-muted">
                   July 2007 - June 2008
                 </h6>
