@@ -34,11 +34,6 @@
           <router-link to="/" class="nav-link"> Home </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="resume/RodrigoJimenezProfile.pdf">
-            Download
-          </a>
-        </li>
-        <li class="nav-item">
           <a
             class="nav-link"
             href="https://app.pluralsight.com/profile/rodrigo-jimenez-16"
