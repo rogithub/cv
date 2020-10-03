@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <router-link to="/" class="navbar-brand">
       <svg
         width="1em"

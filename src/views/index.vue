@@ -7,9 +7,10 @@
   margin-right: 2px;
 }
 
-div.cv {
-  background-color: white;
+div.cv { 
   padding: 2em;
+  border: 1px solid rgba(0,0,0,.125);
+  background-color:whitesmoke;
 }
 </style>
 

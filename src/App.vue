@@ -19,9 +19,7 @@ export default {
 
 <style>
 /* Custom page CSS */
-body {
-  background-color: darkred;
-}
+
 .container {
   padding-top: 70px;
 }

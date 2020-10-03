@@ -1,8 +1,14 @@
+<style>
+div.contact { 
+  background-color:whitesmoke;
+}
+</style>
+
 <template>
   <div class="container">
     <div class="row">
       <div class="col">
-        <div class="card">
+        <div class="card contact">
           <div class="card-body">
             <h4 class="card-title">Contact</h4>
             <h5 class="card-subtitle mb-2 text-muted">México</h5>
