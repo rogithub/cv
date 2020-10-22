@@ -43,7 +43,7 @@
           >
             Recent Training
           </a>
-        </li>        
+        </li>
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
@@ -65,8 +65,11 @@
             </a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="https://dejatupuntito.com/">Web</a>
-            <a class="dropdown-item" href="https://api.dejatupuntito.com/">
-              Api
+            <a
+              class="dropdown-item"
+              href="https://app.swaggerhub.com/apis-docs/rogithub/upcs/1.0.0"
+            >
+              UPC Api
             </a>
             <a class="dropdown-item" href="https://identity.dejatupuntito.com/">
               Identity Server
